@@ -7,4 +7,4 @@ def hello_world():
     return render_template("index.html")  # Ensure you have an index.html file in the templates folder
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5000)
